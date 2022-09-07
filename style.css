@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    height: 65px;
+    background-color: aquamarine;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img {
+    height: 100px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+    
+
+}
