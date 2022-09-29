@@ -10,7 +10,7 @@
 }
 
 header{
-    background: linear-gradient(to bottom, #000000, #434343);
+    background: linear-gradient(to bottom, #2193b0, #6dd5ed);
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -21,8 +21,20 @@ header{
     top: 0px;
 }
 
-.logo {
-    height: 40%;
+.logo h3 {
+    align-items: center;
+    top: 0px;
+    margin: 0%;
+    display: flex;
+    background-color: white;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+
+.libross{
+    width: 10%;
 }
 
 .navbar,
@@ -55,7 +67,7 @@ header{
 }
 
 main{
-    background: black;
+    background-color: #6dd5ed;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,10 +94,10 @@ main{
 
 .portada-info h1{
     font-size: 40px;
-    width: 75%;
+    width: 80%;
     min-width: 500px;
     font-weight: 800;
-    background: linear-gradient(to right, #bdc3c7, #2c3e50);  
+    background: linear-gradient(to right, #ffeeee, #ddefbb);  
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -93,7 +105,7 @@ main{
 
 .portada-info a{
     color:aliceblue;
-    background-color: #696969;
+    background: linear-gradient(to right, #232526, #414345);
     width: 120px;
     padding: 8px 0px;
     border-radius: 10px;
@@ -102,4 +114,17 @@ main{
     align-items: center;
     gap: 60px;
     
+}
+
+
+.imagen{
+    width: 100%;
+    flex-direction: column;
+}
+
+.descripcion  h2 {
+    font-size: 30px;
+    width: 70px;
+    min-width: 500px;
+    font-weight: 100;
 }
