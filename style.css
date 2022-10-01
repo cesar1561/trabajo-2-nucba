@@ -21,15 +21,20 @@ header{
     top: 0px;
 }
 
-.logo h3 {
-    align-items: center;
-    top: 0px;
-    margin: 0%;
+.ayres{
     display: flex;
+    font-weight: 400;
     background-color: white;
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
+    align-items: center;
+    
+}
+
+.ayres img{
+    display: flex;
+    top: 0%;
 }
 
 
@@ -127,4 +132,74 @@ main{
     width: 70px;
     min-width: 500px;
     font-weight: 100;
+}
+
+#cards{
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:70px;
+}
+
+#cards h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.beneficios{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.info-card{
+    width: 280px;
+    height: 250px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.info-card img{
+    width: 30%;
+}
+
+.info-card h3{
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.info-card p{
+    font-size: 12px;
+    font-weight: 100;
+}
+
+footer{
+    background-color:  #6dd5ed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0px;
+    gap: 40px;
+}
+
+footer a{
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-weight: 600;
 }

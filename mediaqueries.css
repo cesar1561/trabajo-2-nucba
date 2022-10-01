@@ -1,0 +1,53 @@
+@media (max-width:992px){
+.navbar{
+    display: none;
+}
+
+.portada-info{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:30px
+}
+
+.imagen{
+    display: none;
+}
+
+.descripcion h2{
+    display: none;
+}
+
+
+.portada-info h1{
+    width: 60%;
+    max-width: 500px;
+    min-width: unset;
+}
+
+.portada-info p{
+    width: 50%;
+}
+
+#cards h2{
+text-align: center;
+max-width: 80%;
+}
+}
+
+@media(min-width:576px){
+#cards h2{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.footer-ul{
+    text-align: center;
+    flex-direction: column;
+}
+
+}
+
